@@ -1,0 +1,23 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      renovate-test-private:
+        specifier: git@github.com:maiolica/renovate-test-private.git
+        version: git+https://git@github.com:maiolica/renovate-test-private.git#413b3784c24680ac4cacfe9c1aae55cc02e7f31d
+
+packages:
+
+  renovate-test-private@git+https://git@github.com:maiolica/renovate-test-private.git#413b3784c24680ac4cacfe9c1aae55cc02e7f31d:
+    resolution: {commit: 413b3784c24680ac4cacfe9c1aae55cc02e7f31d, repo: git@github.com:maiolica/renovate-test-private.git, type: git}
+    version: 0.0.0
+
+snapshots:
+
+  renovate-test-private@git+https://git@github.com:maiolica/renovate-test-private.git#413b3784c24680ac4cacfe9c1aae55cc02e7f31d: {}

@@ -1,0 +1,16 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+      "config:recommended"
+    ],
+    "hostRules": [
+      {
+        "matchHost": "github.com",
+        "hostType": "github",
+        "token": "{{ secrets.RENOVATE_GITHUB_TOKEN }}"
+      }
+    ],
+    "postUpdateOptions": [
+      "pnpmDedupe"
+    ]
+  }
