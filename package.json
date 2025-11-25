@@ -11,6 +11,7 @@
   "license": "ISC",
   "packageManager": "pnpm@10.20.0",
   "dependencies": {
-    "renovate-test-private": "git@github.com:maiolica/renovate-test-private.git"
+    "renovate-test-private": "git@github.com/maiolica/renovate-test-private.git#413b3784c24680ac4cacfe9c1aae55cc02e7f31d",
+    "vue": "3.5.24"
   }
 }
