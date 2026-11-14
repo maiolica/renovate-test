@@ -1,17 +1,9 @@
 {
   "name": "renovate-test",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
+  "description": "Git-hosted package with a peer dependency, used to reproduce a pnpm lockfile reuse regression",
   "license": "ISC",
-  "packageManager": "pnpm@10.20.0",
-  "dependencies": {
-    "renovate-test-private": "git@github.com/maiolica/renovate-test-private.git#413b3784c24680ac4cacfe9c1aae55cc02e7f31d",
-    "vue": "3.5.24"
+  "peerDependencies": {
+    "vue": "^3.0.0"
   }
 }
